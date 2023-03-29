@@ -1,0 +1,80 @@
+[
+  {
+    "id": 0,
+    "h": "創造",
+    "src": "89",
+    "cid": "bafkreigmqj2rlzt2pm7qvf65wnhbmz5orso7ilfcvuyfinymzefqhijau4"
+  },
+  {
+    "id": 1,
+    "h": "夢幻",
+    "src": "100",
+    "cid": "bafkreib2dquvlxykdijerbyodnfc22oq6u2xetevii6hzpfd3zbxgwn4bu"
+  },
+  {
+    "id": 2,
+    "h": "光輝",
+    "src": "109",
+    "cid": "bafkreifqtajeth4bthfwegzv5tdyxyjj7r4d3hhvslavigbfuknzbxomti"
+  },
+  {
+    "id": 3,
+    "h": "中性子",
+    "src": "88",
+    "cid": "bafkreiec7yhbsuw5izmqwuzip5uigq5gorwhod7oljh3blppmgn6zcbkmq"
+  },
+  {
+    "id": 4,
+    "h": "太陽",
+    "src": "59",
+    "cid": "bafkreicn45svtmy3wfonrsxmq5pi2ugsv3gkx7fjidnaxckxv2puswbjxi"
+  },
+  {
+    "id": 5,
+    "h": "夜空",
+    "src": "112",
+    "cid": "bafkreicxdaydvy23fzzpdh2k5fwgarq6mde46mcaqo4espcyop7hgwppqy"
+  },
+  {
+    "id": 6,
+    "h": "白雪",
+    "src": "15",
+    "cid": "bafkreibm5jlqcai3bcimeqvdonwclwojqgedwyl5gdvq5xiofv63uougmy"
+  },
+  {
+    "id": 7,
+    "h": "雷帝",
+    "src": "30",
+    "cid": "bafkreiez7bggsdznyatxnc5wqmqqva7c6jwr5idfmp2gvnqtlyjh5whhcu"
+  },
+  {
+    "id": 8,
+    "h": "超究",
+    "src": "108",
+    "cid": "bafkreid53b5ktuehasswopumxuvbk5rcidwfx4fgceifczmshyb2op253e"
+  },
+  {
+    "id": 9,
+    "h": "剣技",
+    "src": "103",
+    "cid": "bafkreibsxzbx4nmjatsgowt6otctmapzrua2gh34du2pimdu73tvok6fzm"
+  },
+  {
+    "id": 10,
+    "h": "破壊",
+    "src": "87",
+    "cid": "bafkreifybqcdql6d65eo2j3geqjxljxudpvhr2l66ic3yn3s6usqabhxpu"
+  },
+  {
+    "id": 11,
+    "h": "地球",
+    "src": "78",
+    "cid": "bafkreibzdx35qdbe7v42vhrzhij2nbygea33nf7euf64xgnzoouipgpjai"
+  },
+  {
+    "id": 12,
+    "h": "天ノ川",
+    "src": "115",
+    "cid": "bafkreiewbetokrdwvvn233szo3hfagmzxu3nuh4gcmvzn3qggphlihsymq"
+  }
+]
