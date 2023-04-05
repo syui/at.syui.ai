@@ -7,7 +7,7 @@
 			<p><a :href="this.plcurl + record.data.records[0].uri.split('/',3)[2]">{{ record.data.records[0].uri.split('/',3)[2] }}</a></p>
 		</div>
 		<form @submit.prevent="submit">
-			<input v-model="id" placeholder="id" value="id">
+			<input v-model="id" placeholder="id">
 			<input type="submit">
 		</form> 
 		<div v-if="record" class="bluesky-record">
@@ -39,8 +39,9 @@ export default {
 			avatar: "https://at.syui.ai/image/G8UWSR-zF7dJQP-wEhlMfUwzUmdX6v6J4mxA5cQZ7mE/rs:fill:1000:1000:1:0/plain/bafkreicltsmeatkmq5wkx5ge6nz73ol2wrf5fa5gkymxmuahzfytyjrvze@jpeg",
 		}
 	},
-	mounted() {
-		axios.get("https://" + this.host + "/xrpc/com.atproto.repo.listRecords?user=" + this.id + "&collection=app.bsky.feed.post")
+	created () {
+			axios
+				.get("https://" + this.host + "/xrpc/com.atproto.repo.listRecords?repo=" + this.id + "&collection=app.bsky.feed.post")
 			.then(response => (this.record = response))
 			.catch(error => console.log(error))
 	},
@@ -50,7 +51,7 @@ export default {
 				this.id = this.id + ".syui.ai";
 			}
 			axios
-				.get("https://" + this.host + "/xrpc/com.atproto.repo.listRecords?user=" + this.id + "&collection=app.bsky.feed.post")
+				.get("https://" + this.host + "/xrpc/com.atproto.repo.listRecords?repo=" + this.id + "&collection=app.bsky.feed.post")
 				.then(response => (this.record = response));
 				this.name = "@" + this.id;
 				this.bskyurl = "https://staging.bsky.app/profile/" + this.id;
