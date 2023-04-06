@@ -4,7 +4,7 @@
 
 ### atr(client)
 
-`art` is cli client for at written in rust.
+`atr` is cli client for at written in rust.
 
 client name originates from `at(proto)` + `rust`.
 
