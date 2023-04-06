@@ -6,7 +6,7 @@
 
 `art` is cli client for at written in rust.
 
-client name originates from `at(proto)` + `rust` = `atr`.
+client name originates from `at(proto)` + `rust`.
 
 this client is also embedded in the bot.
 
