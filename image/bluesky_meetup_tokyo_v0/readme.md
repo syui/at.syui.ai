@@ -11,8 +11,6 @@ author : syui
 
 ### atr(client)
 
-https://github.com/syui/atr
-
 `atr` is cli client for at written in rust.
 
 <img src="./atr.png" width="450">
@@ -20,3 +18,5 @@ https://github.com/syui/atr
 client name originates from `at(proto)` + `rust`.
 
 this client is also embedded in the bot.
+
+https://github.com/syui/atr
