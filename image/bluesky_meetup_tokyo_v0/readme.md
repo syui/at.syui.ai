@@ -6,13 +6,17 @@ author : syui
 
 `@yui.bsky.social /card`, you can get a card by mention.
 
+<img src="./bot.png" width="450">
+
+
 ### atr(client)
 
 https://github.com/syui/atr
 
 `atr` is cli client for at written in rust.
 
+<img src="./atr.png" width="450">
+
 client name originates from `at(proto)` + `rust`.
 
 this client is also embedded in the bot.
-
