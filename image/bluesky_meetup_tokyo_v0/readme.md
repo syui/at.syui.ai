@@ -1,6 +1,6 @@
 author : syui
 
-![](https://syui.ai/icon/syui.png)
+<img src="https://syui.ai/icon/syui.png" width="300">
 
 ### bot(yui.bsky.social)
 
