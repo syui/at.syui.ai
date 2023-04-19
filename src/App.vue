@@ -26,7 +26,8 @@ let default_id = "syui.syui.ai";
 export default {
 	name: "App",
 	metaInfo: {
-		title: "syui.ai",
+		title: "bsky.syui.ai",
+		titleTemplate: '%s',
 	},
 	data () {
 		return {
