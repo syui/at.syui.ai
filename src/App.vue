@@ -1,7 +1,10 @@
 <template>
 	<div id="app">
-		<div v-if="avatar && 'ai.syui.ai' === this.id" class="bluesky-avatar">
+		<div v-if="avatar && 's.ai' === this.id" class="bluesky-avatar">
 			<img :src="avatar"/>
+		</div>
+		<div v-if="avatar && 'ai.ai' === this.id" class="bluesky-avatar">
+			<img :src="avatar_ai"/>
 		</div>
 		<div v-if="record" class="bluesky-did">
 			<p><a :href="this.plcurl + record.data.records[0].uri.split('/',3)[2]">{{ record.data.records[0].uri.split('/',3)[2] }}</a></p>
@@ -22,7 +25,7 @@
 
 <script>
 import axios from 'axios'
-let default_id = "syui.syui.ai";
+let default_id = "ai.ai";
 export default {
 	name: "App",
 	metaInfo: {
@@ -32,12 +35,13 @@ export default {
 	data () {
 		return {
 			host: "bsky.syui.ai",
-			id: "syui.syui.ai",
+			id: "ai.ai",
 			record: null,
-			did: "did:plc:kqgn52wtz5fwon3bvatq4nes",
+			did: "did:plc:g2h62aaayqua5odc5cqib5tt",
 			url: null,
 			plcurl: "https://plc.directory/",
-			avatar: "https://at.syui.ai/image/oBIlQ0M76NEShUkpQZLm5yBmvnHqeuifhkaDN0L4-B0/rs:fill:1000:1000:1:0/plain/bafkreiedf5tj3e45dsfwhaf6nwqw7fv3v3xjibdhwy6bjv5db4tx4nz3ga@jpeg",
+			avatar: "/image/syui.png",
+			avatar_ai: "/image/ai.png",
 		}
 	},
 	created () {
@@ -49,7 +53,7 @@ export default {
 	methods: {
 		submit() {
 			if (this.id.includes('.') === false) {
-				this.id = this.id + ".syui.ai";
+				this.id = this.id + ".ai";
 			}
 			axios
 				.get("https://" + this.host + "/xrpc/com.atproto.repo.listRecords?repo=" + this.id + "&collection=app.bsky.feed.post")
