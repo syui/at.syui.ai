@@ -32,12 +32,12 @@ export default {
 	data () {
 		return {
 			host: "bsky.syui.ai",
-			id: "ai.syui.ai",
+			id: "syui.syui.ai",
 			record: null,
-			did: "did:plc:prrrjxei3gnjucvxn5l4goyc",
+			did: "did:plc:kqgn52wtz5fwon3bvatq4nes",
 			url: null,
 			plcurl: "https://plc.directory/",
-			avatar: "https://at.syui.ai/image/G8UWSR-zF7dJQP-wEhlMfUwzUmdX6v6J4mxA5cQZ7mE/rs:fill:1000:1000:1:0/plain/bafkreicltsmeatkmq5wkx5ge6nz73ol2wrf5fa5gkymxmuahzfytyjrvze@jpeg",
+			avatar: "https://at.syui.ai/image/oBIlQ0M76NEShUkpQZLm5yBmvnHqeuifhkaDN0L4-B0/rs:fill:1000:1000:1:0/plain/bafkreiedf5tj3e45dsfwhaf6nwqw7fv3v3xjibdhwy6bjv5db4tx4nz3ga@jpeg",
 		}
 	},
 	created () {
