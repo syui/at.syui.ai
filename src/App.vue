@@ -9,10 +9,12 @@
 		<div v-if="record" class="bluesky-did">
 			<p><a :href="this.plcurl + record.data.records[0].uri.split('/',3)[2]">{{ record.data.records[0].uri.split('/',3)[2] }}</a></p>
 		</div>
+		<!--
 		<form @submit.prevent="submit">
 			<input v-model="id" placeholder="id">
 			<input type="submit">
 		</form> 
+		-->
 		<div v-if="record" class="bluesky-record">
 			<li v-for="i in record.data.records">
 				<p><span class="name">{{ id }}</span></p>
